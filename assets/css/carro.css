@@ -1,0 +1,104 @@
+html {
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+
+body {
+    margin: 0;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+
+    margin: 0;
+    color: rgb(255, 254, 254);
+}
+
+
+.container {
+
+    max-width: 1920px;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+/*Navegação*/
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(14, 1, 1);
+    border-bottom: 3px solid rgb(0, 0, 182);
+    background-color: rgb(0, 0, 182);
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(0, 0, 182);
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+
+}
+
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a{
+text-decoration: none;
+color:rgb(255, 255, 255);
+transition: -5s;
+}
+
+.nav-container li a{
+color: rgb(255, 255, 255);
+}
+
+/*-----------------------------------------------*/
+
+/* Nome Marca*/
+
+.Nome-marca{
+text-align: center;
+display: block;
+position: relative;
+}
