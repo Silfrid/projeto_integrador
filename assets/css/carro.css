@@ -125,7 +125,6 @@ nav:after {
     #busca {
         margin:0 auto;
         padding:0;
-        margin-top: 164px;
         float: right;
         }
         
@@ -161,5 +160,8 @@ nav:after {
         }        
 
 
-
+        .main{
+            margin-top: 170px;
+        }
+            
 

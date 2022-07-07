@@ -31,16 +31,15 @@
 
     </div>
 
-<?php
-include "pesquisar.php"
-?>
+
 
 
     <div id='busca'>
         <form action="pesquisar.php" class="search" method="post">
             <input id="txtbusca"  type="text" name="pesquisar" placeholder="O que procura?" />
-            <input id="btnBusca" type="submit" value="enviar" name="enviar" />
+            <input id="btnBusca" type="submit" value="enviar" name="envi" />
         </form>
     </div>
+ 
 
 </body>
