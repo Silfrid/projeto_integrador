@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+*{
+    font-family: 'Bebas Neue';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(35, 35, 77);
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+
+}
+
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h2{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+    
+    font-weight: 500;
+    position: relative;
+    list-style: none;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    
+}
+
+.footer-col li{
+    display: inline;
+    padding: 5px;
+}
+.footer-col p{
+    padding: 5px;
+    color: white;
+
+}
+.footer-col .img{
+    margin-top: 30px;;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: black;
+    background-color: white;
+
+}
+.footer-col .form-sub input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+@media (max-widht:800px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+    
