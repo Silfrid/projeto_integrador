@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>carros</title>
-    <link rel="stylesheet" href="assets/css/teste.css">
-    <link rel="shortcut icon" href="assets/image/logo.jpg">
-
-</head>
-
-
 <body>
 
     <div class="container">
@@ -23,8 +7,6 @@
             <nav>
 
                 <div class="nav-container">
-
-
 
                     <a href="index.html">
 
@@ -41,34 +23,24 @@
 
                     </ul>
 
-
                 </div>
 
             </nav>
 
         </header>
 
-
     </div>
 
+<?php
+include "pesquisar.php"
+?>
 
 
     <div id='busca'>
-        <form action="/search" class="search" method="get">
-            <input id="txtbusca" name="q" type="text" value="" placeholder="O que procura?" />
-            <input id="btnBusca" type="submit" value="Go" />
+        <form action="pesquisar.php" class="search" method="post">
+            <input id="txtbusca"  type="text" name="pesquisar" placeholder="O que procura?" />
+            <input id="btnBusca" type="submit" value="enviar" name="enviar" />
         </form>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
